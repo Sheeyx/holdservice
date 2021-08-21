@@ -1,0 +1,1366 @@
+
+@font-face {
+    font-family:'SF Pro Display';
+    font-style:normal;
+    font-weight:500;
+    src:local('☺︎'), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_medium.woff") format("woff"), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_medium.ttf") format("truetype");
+    /* (C) 2015 Apple Inc. All rights reserved.*/
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+.main-container{
+    position: relative;
+    background: #EDF0F7;
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow-x: hidden;
+
+}
+
+
+
+.pera{
+    display: none;
+}
+
+
+
+
+.top{
+    display: none;
+}
+
+.bottom{
+    display: none;
+}
+
+.header{
+    max-width: 1368px;
+    margin: 0 auto;
+}
+
+.logo{
+    margin-top:21px ;
+}
+
+.navv{
+    display: flex;
+    
+   
+}
+
+
+.icon_show{
+    display: none;
+   
+   
+}
+
+.icon_close{
+    display: none;  
+}
+
+.pers{
+    display: none;
+}
+
+.second{
+    width: 855px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+
+}
+
+.air-con{
+    
+position: absolute;
+left: 50px;
+top: 139px;
+bottom: 50.8%;
+}
+
+.person{
+position: absolute;
+width: 667px;
+height: 667px;
+right: 70px;
+top: 154px;
+}
+
+.vect{
+position: absolute;
+right: 0;
+top: 80px;
+}
+
+.circle{
+position: absolute;
+top:0;
+right: 520px;
+}
+
+
+.right-small{
+    position: absolute;
+    top: 180px;
+    left: 490px;
+}
+
+.right-big{
+    position: absolute;
+    top: 380px;
+    left: 0;
+}
+
+
+.nav-links{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul{
+    margin-right: 48px;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+} 
+
+
+.nav ul li a{
+text-decoration: none;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#f44336 ;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+
+.nav ul li:hover::after{
+   width: 100%; 
+}
+
+.nav-text{
+    position: relative;
+    max-width: 542px;
+    height: 258px;
+    margin-top: 96px;
+    
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 64px;
+letter-spacing: 0.0167em;
+
+color: #312F36;
+}
+
+.tel{
+    list-style: none;
+}
+
+.tel a{
+text-decoration: none;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.text{
+margin-top: 10px;
+width: 645px;
+height: 65px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 64px;
+}
+
+.text_icon{
+    position: relative;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.s{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 88px;
+
+}
+
+.s div{
+    margin-right: 10px;
+}
+
+.text_icon h6{
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+color: #312F36;
+}
+
+.text_icon p{
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+color: #312F36;
+}
+
+.button-con{
+    display: flex;
+    margin-top: 47px;
+    padding-bottom: 214px;
+}
+
+.button-con button{
+margin-right: 24px;
+width: 326px;
+height: 79px;
+border: #5445FF;
+background: linear-gradient(130.38deg, #7638FF 42.22%, #5445FF 94.73%);
+border-radius: 1000px;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+.button-con p{
+    width: 380px;
+height: 62px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+color: #312F36;
+}
+
+ .ssc {
+    display: none;
+} 
+
+.small_photo{
+    display: none;
+}
+
+@media screen and (max-width: 1405px) {
+    .header{
+        max-width: 1365px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .person{
+        display: none;
+    }
+    .second{
+        display: none;
+    }
+
+
+    .navv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .pera{
+        display: block;
+        margin-left: 200px;
+    }
+
+    .nav ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: #7638FF;
+        height: 700px;
+        width: 300px;
+        top: 0;
+        /* right:-15px; */
+        right: -350px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    .nav-links li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+
+    .icon_show{
+        display: block;
+      position: absolute;
+      top: 30px;
+      right: 400px;
+       color:#7638FF;
+       
+    }
+
+    .icon_close{
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 40px;   
+}
+
+   
+
+     .fa-times{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size:22px ;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+   
+
+    
+.nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#f44336 ;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+
+.nav ul li:hover::after{
+   width: 70%; 
+}
+
+.second{
+    display: block;
+}
+
+
+.circle{display: none;}
+.vect{display: none;}
+.recta{display: none;}
+.air-con{display: none;}
+.person{display: none;}
+
+
+}
+
+
+@media screen and (max-width:1418px) {
+    .about_us{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+}
+
+/* --- Data service --- */
+
+.data_service{
+    margin-top: 50px;
+    background:#EDF0F7;
+}
+
+.data_service_con{
+    max-width: 1360px;
+    margin:0 auto ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin-top: 69px;
+}
+
+.data_row{
+    margin-bottom: 50px;
+}
+
+
+.data_service_con h2{
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 64px;
+letter-spacing: 0.0167em;
+color: #7638FF;
+}
+
+.data_service_con p{
+width: 692px;
+height: 120px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.0167em;
+color: #312F36;
+margin: 0 auto;
+}
+
+.data_row h1{
+    
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 64px;
+text-align: center;
+color: #312F36;
+}
+
+.data_row p{
+    width: 296px;
+    height: 75px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #312F36;
+}
+
+.data_s{
+    margin-top: 36px;
+}
+
+
+
+
+/* --- --- */
+
+.ou_service{
+    background-color: #fff;
+    padding-bottom: 10%;
+}
+
+.list-item li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.list-item h1{
+    margin-top: 49px;
+}
+
+
+
+.service_about{
+    position: relative;
+}
+
+
+
+.service_button2{
+   margin-top: 25px;
+}
+
+
+/* --- Sale --- */
+
+.small_operator{display: block;}
+
+.sale{
+background-image: url(./assets/Rectangle\ 1185.png);
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-flow: wrap;
+}
+
+.sale h2{ 
+font-family: SF Pro Display;
+font-size: 42px;
+line-height: 64px;
+text-align: center;
+letter-spacing: 0.0167em;
+color: #7638FF;
+margin-top:273px ;
+margin-left: 90px;
+}
+
+.sale p{
+    margin-top: 20px;
+    margin-left: 75px;
+width: 719px;
+height: 71px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 35px;
+letter-spacing: 0.0167em;
+}
+
+.operator{
+    margin-top: 65px;
+}
+
+.form{
+    margin-top: 63px;
+    margin-left: 75px;
+}
+
+.phone{
+width: 283px;
+height: 58px;
+left: 115px;
+top: 5719px;
+background: #FFFFFF;
+border-radius: 717.791px;
+border: 1px solid #7638FF;
+padding-left:10px ;
+
+}
+
+.phone:focus{
+ outline: none;
+}
+
+.sale button{
+width: 206px;
+height: 58px;
+background: linear-gradient(130.38deg, #7638FF 42.22%, #5445FF 94.73%);
+border-radius: 717.791px;
+border: 1px solid #7638FF;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.fail{
+    display: flex;
+    flex-direction: row;
+}
+
+.d{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+/* --- Galery --- */
+
+.small_photo{display: block;}
+
+ .gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 173px 36px;
+    background:#fff ;
+} 
+
+.gallery h2{
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 64px;
+text-align: center;
+letter-spacing: 0.0167em;
+color: #7638FF;
+}
+
+.gallery p{
+width: 1021px;
+align-items: center;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.0167em;
+margin: 0 auto;
+padding:30px 50px ;
+
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    flex-flow: wrap;
+    margin: 0 20px;
+}
+
+@media screen and (max-width:999px) {
+    .gallery h2{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 64px;
+    }
+
+    .gallery p{
+        width: 364px;
+        height: 300px;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 30px;
+        padding-bottom: 50px;
+    }
+}
+
+
+.small_operator{
+    display: none;
+}
+
+
+@media screen and (max-width:851px) {
+    .nav-text{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 64px;
+    }
+
+    .text{
+        font-size: 16px;
+line-height: 64px;
+    }
+
+    .header{
+        max-width: 850px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:200px ;
+    }
+
+    .icon_show{
+        top: 30px;
+        right: 200px;   
+    }
+
+    .button-con button{
+        margin-bottom:20px ;
+    }
+
+    .text_icon{
+        display: flex;
+        flex-direction: column;
+        text-align:center ;
+    }
+
+    .button-con{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .pera{
+        display: none;
+    }
+
+    .top{
+        display: none;
+        position: absolute;
+        top: 850px;
+        left: 200px;
+    }
+    .bottom{
+        display: none;
+        position: relative;
+        margin-top: 130px;
+        margin-left: 25px;
+    }
+
+    /* About_us */
+
+    .wrench_small{
+        display: block;
+    }
+
+    .wrench{
+        display: none;
+    }
+
+    .about_us h2{
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 30px;
+        text-align:center ;
+    }
+
+    .about_us p {
+        width: 400px;
+        height: 540px;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 364;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0.0167em;
+    }
+
+    /* Sale */
+
+    .sale h2{
+        width: 284px;
+        height: 80px;
+font-size: 30px;
+line-height: 40px;
+text-align: center;     
+    }
+
+    .sale p{
+        width: 356px;
+        height: 90px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form input{
+        width: 284px;
+        height: 58px;
+        margin-bottom:20px ;
+    }
+
+    .form button{
+        width: 284px;
+        height: 58px;
+    }
+
+    .small_operator{
+        display: block;
+    }
+
+    .operator{display: none;}
+
+    .sale{
+        padding: 0;
+    }
+
+    /*   Data Service */
+    
+    .data_service_con h2{
+width: 181px;
+height: 65px;
+font-size: 30px;
+line-height: 64px;
+margin: 0 auto;
+
+    }
+
+    .data_service_con p{
+        width: 364px;
+height: 160px;
+font-size: 20px;
+line-height: 40px;
+text-align: center;
+    }
+
+}
+
+@media screen and (max-width:447px) {
+    /* Gallery */
+    .photo {display: none;}
+    .small_photo{display: block;}
+}
+
+
+
+
+
+/* Our Service */
+.our_service{
+    background-color: #fff;
+}
+
+.our_service_con{
+    max-width: 1368px;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 100px;
+   
+} 
+
+.our_service h1{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 64px;
+    letter-spacing: 0.0167em;
+    color: #7638FF;
+
+}
+
+.our_service p{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.0167em;
+    color: #312F36;
+    margin-top: 23px;
+}
+
+
+.box{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.service_about{
+margin-top: 10%;
+width: 448px;
+align-items: center;
+text-align: center;
+background: #FFFFFF;
+border-radius: 14px;
+box-sizing: border-box;
+border: 1px solid #7638FF;
+opacity: 99.9;
+padding-bottom: 54px;
+}
+
+.service_circle{
+margin: 0 auto;
+width: 110px;
+height: 110px;
+border-radius: 50%;
+background: linear-gradient(130.38deg, rgba(118, 56, 255, 0.1) 42.22%, rgba(84, 69, 255, 0.1) 94.73%);
+margin-top: 46px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.service_about h2{
+margin-top: 17px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 64px;
+color: #312F36;
+}
+
+.list{
+    margin-top: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.service_but{
+    margin-top: 95px;
+}
+
+.service_about button{
+margin-top: 35px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+    width: 206px;
+    height: 58px;
+    border: 1px solid #7638FF;
+    background: linear-gradient(130.38deg, #7638FF 42.22%, #5445FF 94.73%);
+    border-radius: 717.791px;
+}
+
+.box ul li{
+    text-align: left;
+    align-items: center;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+color: #312F36;
+
+
+
+}
+
+.row button{
+margin-top: 35px;  
+width: 206px;
+height: 58px;
+border: #5445FF;
+background: linear-gradient(130.38deg, #7638FF 42.22%, #5445FF 94.73%);
+border-radius: 1000px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+
+
+
+
+/* ***** About Us ****** */
+
+.about_us{
+    background:#fff ;
+    display: flex;
+    padding-top: 192px;
+    
+}
+
+
+.wrench_small{
+    display: none;
+}
+
+.about_us h2{
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 64px;
+letter-spacing: 0.0167em;
+color: #7638FF;
+}
+
+.about_us p{
+    width: 642px;
+    height: 480px;
+    margin-top: 25px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 40px;
+letter-spacing: 0.0167em;
+color: #312F36;
+
+}
+
+
+.small_photo{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 415px) {
+    
+    
+    .header{
+        max-width: 364px;
+        margin: 0 auto;
+        margin-left:200px ;
+    }
+
+    .pera{
+        display: none;
+    }
+
+    .nav-text{ 
+        margin-top:0;
+        margin-top:78px;
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 64px;
+        letter-spacing: 0.0167em;
+        color: #312F36;
+    }
+
+    
+    .text{
+        font-size: 16px;
+        line-height: 64px;
+    }
+
+    
+    .text_icon{
+        display: block;
+    }
+
+    .button-con{
+        display: block;
+    }
+
+    .button-con p{
+        margin-top: 34px;
+    }
+
+    .button-con button{
+        margin-top: 0;
+        margin-top: 132px;
+    }
+
+    .button-con{
+    padding-bottom: 400px;
+
+    }
+
+
+    .top{
+        display: block;
+        position: absolute;
+      top: 1100px;
+      left: 86px;
+             
+    }
+    .bottom{
+        display: block;
+        position: absolute;
+        top: 850px;
+        left: 0;
+    }
+
+    .second{
+        display: block;
+    }
+   
+/* 
+    .ssc {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .ssk {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }*/
+    
+
+
+    .circle{display: none;}
+    .vect{display: none;}
+    .recta{display: none;}
+    .air-con{display: none;}
+    .person{display: none;}
+    
+  
+    .nav ul li{
+        display: block;
+    }
+    .nav-links{
+      position: absolute;
+        background-color: #7638FF;
+        height: 700px;
+        width: 300px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    .nav-links li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .nav{
+        display: block;
+    }
+   
+    .icon_show{
+        display: block;
+        position: absolute;
+        top: 30px;
+       left: 350px;  
+        color: #7638FF;
+      
+       
+    }
+
+    .icon_close{
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 50px;   
+}
+
+   
+
+     .fa-times{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size:22px ;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+   
+
+    
+.nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#f44336 ;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+
+.nav ul li:hover::after{
+   width: 70%; 
+}
+ 
+.about_us p{
+    width: 364px;
+height: 540px;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 30px;
+}
+
+.about_us h2{
+    padding-bottom: 73px;
+}
+
+.wrench_small{display: block;}
+
+.our_service_con h1{
+    
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 64px;
+color: #7638FF;
+letter-spacing: 0.0167em;
+margin-bottom: 15px;
+}
+
+.our_service_con p{
+    width: 364px;
+height: 120px;
+left: 25px;
+top: 6736px;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 40px;
+/* or 200% */
+
+text-align: center;
+letter-spacing: 0.0167em;
+
+}
+
+.sale{
+    width: 414px;
+height: 934px;
+}
+
+.sale p{
+    width: 300px;
+height: 90px;
+left: 29px;
+top: 9558px;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+letter-spacing: 0.0167em;
+
+/* sghdhsf */
+
+color: #312F36;
+}
+
+.sale_first{
+    position: absolute;
+bottom: 2560px;
+}
+.small_operator{
+    margin-top:180px ;
+}
+
+.gallery{
+    padding: 0;
+    margin:0 ;
+    padding-top:85px ;
+}
+
+.gallery p{
+    width: 364px;
+height: 300px;
+left: 25px;
+top: 10502px;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 30px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.0167em;
+
+/* sghdhsf */
+
+color: #312F36;
+}
+
+.small_photo{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+
+button:hover{
+    background: #fff;
+    border: 2px solid #7638FF;
+    color: #7638FF;
+    cursor: pointer;
+
+}
+
+
+.service_about:hover{
+    box-shadow: 0 0 20px 0px #7638FF;
+    transition: 0.5s;
+
+}
+
+.data_row:hover{
+    box-shadow: 0 0 20px 0px #312F36;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.service_button1{
+    margin-top: 25px;
+}
+.ser_h1{
+    padding-top: 30px;
+
+}
+
+.list-item h1{
+    color: #7638FF;
+}
+
